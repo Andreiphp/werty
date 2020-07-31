@@ -33,6 +33,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "http://192.168.0.157:5000/graphql",
   "browserslist": {
     "production": [
       ">0.2%",
