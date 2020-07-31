@@ -17,11 +17,15 @@
     "@types/node": "file:../node_modules/@types/node",
     "@types/react": "file:../node_modules/@types/react",
     "@types/react-dom": "file:../node_modules/@types/react-dom",
+    "apollo-boost": "^0.4.9",
+    "classif-expirement": "file:..",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.11.0",
     "react": "file:../node_modules/react",
+    "react-apollo": "^3.1.5",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
-    "typescript": "file:../node_modules/typescript",
-    "classif-expirement": "file:.."
+    "typescript": "file:../node_modules/typescript"
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
