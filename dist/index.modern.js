@@ -1,6 +1,4 @@
-import { createElement } from 'react';
-import { ApolloProvider, useQuery } from '@apollo/react-hooks';
-import { gql } from 'apollo-boost';
+import React__default, { useContext, useReducer, useRef, useEffect, createElement } from 'react';
 
 var styles = {"test":"_styles-module__test__3ybTi"};
 
