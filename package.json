@@ -4,7 +4,7 @@
   "description": "Made with create-react-library",
   "author": "EOS",
   "license": "MIT",
-  "repository": "EOS/classif-expirement",
+  "repository": "http://tfs2017:8080/tfs/DefaultCollection/CLASSIF/_git/CLASSIF_PLATFORM.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
