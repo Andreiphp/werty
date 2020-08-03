@@ -10,7 +10,6 @@ const App = () => {
     <ApolloConsumer>
       {client => <ExampleComponent text={'text'} client={client} />}
     </ApolloConsumer>
-      
     )
 }
 
