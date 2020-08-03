@@ -1,20 +1,16 @@
 import React from 'react'
-import ApolloClient from 'apollo-boost';
-import { ApolloProvider } from '@apollo/react-hooks';
+
 import { ExampleComponent } from 'classif-expirement'
 import 'classif-expirement/dist/index.css'
-
-
-const client: any = new ApolloClient({
-  uri: '/'
-});
-
+// import ApolloClient from 'apollo-boost';
+import { ApolloConsumer } from '@apollo/react-hooks';
 
 const App = () => {
   return (
-    <ApolloProvider client={client}>
-      <ExampleComponent text={client.uri} />
-    </ApolloProvider>
+    <ApolloConsumer>
+      {client => <ExampleComponent text={'text'} client={client} />}
+    </ApolloConsumer>
+      
     )
 }
 
