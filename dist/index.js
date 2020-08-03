@@ -11,7 +11,7 @@ function _taggedTemplateLiteralLoose(strings, raw) {
   return strings;
 }
 
-var styles = {"test":"_3ybTi"};
+var styles = {"test":"_styles-module__test__3ybTi"};
 
 function _templateObject() {
   var data = _taggedTemplateLiteralLoose(["\n  query {\n    listItems {\n        isnList\n        userLists {\n          name\n        }\n        weight\n    }\n  }\n"]);
